@@ -1,0 +1,80 @@
+ul{
+    list-style: none;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li{
+    margin-top: 30px;
+}
+
+ul a{
+    text-decoration: none;
+    color: red;
+    padding: 5px 20px;
+    
+}
+ul a:hover{
+    background: #fff;
+    color: black;
+    border-radius: 20px;
+    box-shadow: blue 6px 6px 50px;
+}
+body{
+    /*background-image: url("../slike/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;*/
+}
+
+.tablica_utakmica{
+border-collapse:collapse;
+}
+
+.tablica_utakmica td{
+border:2px solid green;
+text-align: center; 
+vertical-align: middle;
+}
+.sport_tiket{
+float: right;
+color: white;
+background-color:dimgray;
+border: 1px solid black;
+}
+
+div.vas_tiket{
+border:1.5px solid black;
+}
+
+div.headerListica{
+border-bottom:1px solid black;
+}
+
+div.footerListica{
+border-top:1px solid black;
+}
+
+.utakmice_listic td{
+padding-left: 10px;
+padding-right: 10px;
+}
+
+#roullet {
+    background-color: whitesmoke;
+    border: 4px solid green;
+}
+
+#odznaci {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.utrka_pasa_oklada{
+    float:right;
+    border:1px solid black;
+    background-color: dimgray;
+    color: white;
+}
+.utrka_pasa_hr{
+    margin-left: 0px;
+    width:1000px
+}

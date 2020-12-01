@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/obj/Desktop/faks/stl1a-gorlaligit/src/zadatak.cpp
+zadatak.h
+/home/obj/Desktop/faks/stl1a-gorlaligit/src/zadatak.h
+iostream
+-
+cassert
+-
+string
+-
+iterator
+-
+algorithm
+-
+
+/home/obj/Desktop/faks/stl1a-gorlaligit/src/zadatak.h
+vector
+-
+string
+-
+stdexcept
+-
+utility
+-
+

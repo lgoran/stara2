@@ -1,0 +1,42 @@
+Start testing: Mar 26 15:06 CET
+----------------------------------------------------------
+1/1 Testing: test_zad
+1/1 Test: test_zad
+Command: "/home/obj/Desktop/faks/stl1a-gorlaligit/test/test_zad"
+Directory: /home/obj/Desktop/faks/stl1a-gorlaligit/test
+"test_zad" start time: Mar 26 15:06 CET
+Output:
+----------------------------------------------------------
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from STL1
+[ RUN      ] STL1.nextperm
+cfg
+cgf
+fcg
+fgc
+gcf
+gfc
+[       OK ] STL1.nextperm (0 ms)
+[ RUN      ] STL1.zipgeneral1
+[       OK ] STL1.zipgeneral1 (0 ms)
+[ RUN      ] STL1.zipgeneral2
+[       OK ] STL1.zipgeneral2 (0 ms)
+[ RUN      ] STL1.zipvec1
+[       OK ] STL1.zipvec1 (0 ms)
+[ RUN      ] STL1.phone
+[       OK ] STL1.phone (0 ms)
+[----------] 5 tests from STL1 (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (4 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_zad" end time: Mar 26 15:06 CET
+"test_zad" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 26 15:06 CET

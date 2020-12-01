@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>60</y>
+      <w>290</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>*HTMLComponent*
+--
++ HTMLCompositeTag * getComposite()
++ std::string getTagName()
++ void setTagName(std::string)
++ std::string getStartTag()
++ std::string getEndTag() 
++ std::string getBody() 
++ void setBody(std::string)
++ std::string generateHTML() 
++ CompositeIterator iterator()
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

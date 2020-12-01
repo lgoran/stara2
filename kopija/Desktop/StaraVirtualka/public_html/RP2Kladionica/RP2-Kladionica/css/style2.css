@@ -1,0 +1,137 @@
+.naslov{
+    font-size: 69px;
+    margin: auto;
+    width: 30%;
+    color: darkblue;
+}
+h1{
+    color: darkmagenta;
+    font-family: cursive;
+    font-style: italic;
+}
+h2{
+    color: rgb(255, 30, 0);
+}
+.tablica_utakmica {
+	background: #f5f5f5;
+	border-collapse: separate;
+	box-shadow: inset 0 1px 0 #fff;
+	font-size: 12px;
+	line-height: 24px;
+	
+	text-align: center;
+	width: 800px;
+}	
+
+.tablica_utakmica th {
+    text-align: center; 
+    vertical-align: middle;
+	background: url(https://jackrugile.com/images/misc/noise-diagonal.png), linear-gradient(#777, #444);
+	border-left: 1px solid #555;
+	border-right: 1px solid #777;
+	border-top: 1px solid #555;
+	border-bottom: 1px solid #333;
+	box-shadow: inset 0 1px 0 #999;
+	color: #fff;
+    font-weight: bold;
+	padding: 10px 15px;
+	position: relative;
+	text-shadow: 0 1px 0 #000;	
+}
+
+.tablica_utakmica th:after {
+	background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.08));
+	content: '';
+	display: block;
+	height: 25%;
+	left: 0;
+	margin: 1px 0 0 0;
+	position: absolute;
+	top: 25%;
+	width: 100%;
+}
+
+.tablica_utakmica th:first-child {
+	border-left: 1px solid #777;	
+	box-shadow: inset 1px 1px 0 #999;
+}
+
+.tablica_utakmica th:last-child {
+	box-shadow: inset -1px 1px 0 #999;
+}
+
+.tablica_utakmica td {
+	border-right: 1px solid #fff;
+	border-left: 1px solid #e8e8e8;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #e8e8e8;
+	padding: 10px 15px;
+	position: relative;
+	transition: all 300ms;
+}
+
+.tablica_utakmica td:first-child {
+	box-shadow: inset 1px 0 0 #fff;
+}	
+
+.tablica_utakmica td:last-child {
+	border-right: 1px solid #e8e8e8;
+	box-shadow: inset -1px 0 0 #fff;
+}	
+
+.tablica_utakmica tr {
+	background: url(https://jackrugile.com/images/misc/noise-diagonal.png);	
+}
+
+.tablica_utakmica tr:nth-child(odd) td {
+	background: #f1f1f1 url(https://jackrugile.com/images/misc/noise-diagonal.png);	
+}
+
+.tablica_utakmica tr:last-of-type td {
+	box-shadow: inset 0 -1px 0 #fff; 
+}
+
+.tablica_utakmica tr:last-of-type td:first-child {
+	box-shadow: inset 1px -1px 0 #fff;
+}	
+
+.tablica_utakmica tr:last-of-type td:last-child {
+	box-shadow: inset -1px -1px 0 #fff;
+}	
+
+.tablica_utakmica tbody:hover td {
+	color: transparent;
+	text-shadow: 0 0 3px #aaa;
+}
+
+.tablica_utakmica tbody:hover tr:hover td {
+	color: #444;
+	text-shadow: 0 1px 0 #fff;
+}
+
+.oklada_botun{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid orange;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#000000;
+    background-color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    }
+.oklada_botun:hover{
+    
+    color:#FFFFFF;
+    background-color: rgb(0, 6, 90);
+    }
+@media all and (max-width:30em){
+    a.oklada_botun{
+    display:block;
+    margin:0.4em auto;
+    }
+}

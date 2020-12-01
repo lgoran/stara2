@@ -1,0 +1,28 @@
+// dot -O -Tpng graph.txt
+graph tree {
+
+		nodesep=1.0 // increases the separation between nodes
+		
+		node [color=Red,fontname=Courier,shape=oval] //All nodes will this shape and colour
+		edge [color=Blue, style=dashed] //All the lines look like this
+
+                v1 [label="m", xlabel="0"]
+                v2 [label="k", xlabel="1"]
+                v3 [label="j", xlabel="2"]
+                v4 [label="r", xlabel="3",color="yellow", style="filled"]
+                v5 [label="o", xlabel="4"]
+                v6 [label="p", xlabel="5"]
+                v7 [label="z", xlabel="6"]
+                v8 [label="h", xlabel="7"]
+                v9 [label="l", xlabel="8",color="yellow", style="filled"]
+               v10 [label="m", xlabel="9"]
+		v1--{v2 v3}
+		v2--{v4 v5}
+		v3--{v6 v7}
+		{rank=same;v4 v5 v6 v7}  // Put them on the same level
+                v4--{v8 v9}
+                v5--v10 
+                {rank=same;v8 v9 v10} 
+}
+
+

@@ -1,0 +1,7 @@
+/home/obj/Desktop/faks/tetris-gorlaligit/build/CMakeFiles/rebuild_cache.dir
+/home/obj/Desktop/faks/tetris-gorlaligit/build/CMakeFiles/test.dir
+/home/obj/Desktop/faks/tetris-gorlaligit/build/CMakeFiles/edit_cache.dir
+/home/obj/Desktop/faks/tetris-gorlaligit/build/src/CMakeFiles/rebuild_cache.dir
+/home/obj/Desktop/faks/tetris-gorlaligit/build/src/CMakeFiles/edit_cache.dir
+/home/obj/Desktop/faks/tetris-gorlaligit/build/src/CMakeFiles/main.dir
+/home/obj/Desktop/faks/tetris-gorlaligit/build/src/CMakeFiles/test.dir

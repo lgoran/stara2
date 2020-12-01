@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/anyof.dir/main.cpp.o  -o anyof  -lpthread 

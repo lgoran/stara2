@@ -1,0 +1,25 @@
+// dot -O -Tpng graph-line.txt
+graph line {
+
+// node [shape=record label="z|p|r|o|m|k|m|h|j|l|"]
+
+	nodesep=0.0 // increases the separation between nodes
+		
+		node [color=Red,fontname=Courier,shape=record] //All nodes will this shape and colour
+	        lv1 [label="z", xlabel="0"]
+                lv2 [label="p", xlabel="1"]
+                lv3 [label="r", xlabel="2"]
+                lv4 [label="o", xlabel="3"]
+                lv5 [label="m", xlabel="4"]
+                lv6 [label="k", xlabel="5"]
+                lv7 [label="m", xlabel="6"]
+                lv8 [label="h", xlabel="7"]
+                lv9 [label="j", xlabel="8"]
+                lv10 [label="l", xlabel="9"]
+
+//                lv1--lv2--lv3--lv4--lv5--lv6--lv7--lv8--lv9--lv10
+
+	      {rank=same; lv1 lv2 lv3 lv4 lv5 lv6 lv7 lv8 lv9 lv10}  
+
+}
+

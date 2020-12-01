@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang = "hr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Treci zadatak</title>
+        <style>
+            
+        </style>
+        <script>
+            window.onload = function() {
+var c = document.getElementById( "platno" );
+var x = 0, y = 0;
+c.onclick = function( 
+event
+) {
+var 
+ctx = c.getContext("2d");
+ctx.strokeStyle 
+= 
+"black";
+novi_x 
+= 
+event.pageX
+-
+c.getBoundingClientRect().left;
+novi_y 
+= 
+event.pageY
+-
+c.getBoundingClientRect().top;
+ctx.beginPath
+(); ctx.moveTo( x, y ); 
+ctx.lineTo
+( novi_x, novi_y ); ctx.stroke();
+x 
+= novi_x; y = novi_y;
+}
+}
+            
+        </script>
+    </head>
+    <body>
+        <button onclick="akcija()"> Klikni me </button>
+        
+        <canvas width="500" height="500" id="platno"></canvas>
+    </body>   
+
+</html>

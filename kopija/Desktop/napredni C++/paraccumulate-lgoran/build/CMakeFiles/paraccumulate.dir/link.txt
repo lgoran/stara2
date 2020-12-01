@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/paraccumulate.dir/main.cpp.o  -o paraccumulate  -lpthread 

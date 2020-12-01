@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/obj/Desktop/napredni C++/paraccumulate-lgoran/clock.h
+chrono
+-
+
+/home/obj/Desktop/napredni C++/paraccumulate-lgoran/main.cpp
+clock.h
+/home/obj/Desktop/napredni C++/paraccumulate-lgoran/clock.h
+paraccumulate.h
+/home/obj/Desktop/napredni C++/paraccumulate-lgoran/paraccumulate.h
+iostream
+-
+
+/home/obj/Desktop/napredni C++/paraccumulate-lgoran/paraccumulate.h
+thread
+-
+algorithm
+-
+numeric
+-
+vector
+-
+chrono
+-
+mutex
+-
+clock.h
+/home/obj/Desktop/napredni C++/paraccumulate-lgoran/clock.h
+iomanip
+-
+

@@ -1,0 +1,13 @@
+/home/obj/Desktop/faks/stl1a-gorlaligit/CMakeFiles/rebuild_cache.dir
+/home/obj/Desktop/faks/stl1a-gorlaligit/CMakeFiles/edit_cache.dir
+/home/obj/Desktop/faks/stl1a-gorlaligit/CMakeFiles/googletest.dir
+/home/obj/Desktop/faks/stl1a-gorlaligit/CMakeFiles/test.dir
+/home/obj/Desktop/faks/stl1a-gorlaligit/src/CMakeFiles/rebuild_cache.dir
+/home/obj/Desktop/faks/stl1a-gorlaligit/src/CMakeFiles/test.dir
+/home/obj/Desktop/faks/stl1a-gorlaligit/src/CMakeFiles/stl_lib.dir
+/home/obj/Desktop/faks/stl1a-gorlaligit/src/CMakeFiles/edit_cache.dir
+/home/obj/Desktop/faks/stl1a-gorlaligit/src/CMakeFiles/stl.dir
+/home/obj/Desktop/faks/stl1a-gorlaligit/test/CMakeFiles/edit_cache.dir
+/home/obj/Desktop/faks/stl1a-gorlaligit/test/CMakeFiles/rebuild_cache.dir
+/home/obj/Desktop/faks/stl1a-gorlaligit/test/CMakeFiles/test_zad.dir
+/home/obj/Desktop/faks/stl1a-gorlaligit/test/CMakeFiles/test.dir

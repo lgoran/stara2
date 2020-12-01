@@ -1,0 +1,50 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/obj/Desktop/napredni C++/parminel-lgoran/clock.h
+chrono
+-
+
+/home/obj/Desktop/napredni C++/parminel-lgoran/main.cpp
+minelement.h
+/home/obj/Desktop/napredni C++/parminel-lgoran/minelement.h
+random_int.h
+/home/obj/Desktop/napredni C++/parminel-lgoran/random_int.h
+clock.h
+/home/obj/Desktop/napredni C++/parminel-lgoran/clock.h
+iostream
+-
+vector
+-
+algorithm
+-
+iterator
+-
+
+/home/obj/Desktop/napredni C++/parminel-lgoran/minelement.h
+thread
+-
+algorithm
+-
+numeric
+-
+vector
+-
+chrono
+-
+mutex
+-
+clock.h
+/home/obj/Desktop/napredni C++/parminel-lgoran/clock.h
+iomanip
+-
+
+/home/obj/Desktop/napredni C++/parminel-lgoran/random_int.h
+random
+-
+

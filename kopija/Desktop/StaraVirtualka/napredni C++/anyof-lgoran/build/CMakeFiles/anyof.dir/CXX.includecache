@@ -1,0 +1,50 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/obj/Desktop/napredni C++/anyof-lgoran/clock.h
+chrono
+-
+
+/home/obj/Desktop/napredni C++/anyof-lgoran/main.cpp
+par_any_of.h
+/home/obj/Desktop/napredni C++/anyof-lgoran/par_any_of.h
+vector
+-
+numeric
+-
+algorithm
+-
+iterator
+-
+iostream
+-
+clock.h
+/home/obj/Desktop/napredni C++/anyof-lgoran/clock.h
+stdexcept
+-
+
+/home/obj/Desktop/napredni C++/anyof-lgoran/par_any_of.h
+thread
+-
+algorithm
+-
+numeric
+-
+vector
+-
+chrono
+-
+mutex
+-
+iomanip
+-
+future
+-
+stdexcept
+-
+

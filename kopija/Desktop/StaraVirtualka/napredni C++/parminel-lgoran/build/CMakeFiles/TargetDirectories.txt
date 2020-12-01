@@ -1,0 +1,3 @@
+/home/obj/Desktop/napredni C++/parminel-lgoran/build/CMakeFiles/rebuild_cache.dir
+/home/obj/Desktop/napredni C++/parminel-lgoran/build/CMakeFiles/minelement.dir
+/home/obj/Desktop/napredni C++/parminel-lgoran/build/CMakeFiles/edit_cache.dir

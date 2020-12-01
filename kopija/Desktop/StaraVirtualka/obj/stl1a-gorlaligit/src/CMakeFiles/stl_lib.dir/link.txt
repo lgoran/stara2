@@ -1,0 +1,2 @@
+/usr/bin/ar qc libstl_lib.a  CMakeFiles/stl_lib.dir/zadatak.cpp.o
+/usr/bin/ranlib libstl_lib.a
